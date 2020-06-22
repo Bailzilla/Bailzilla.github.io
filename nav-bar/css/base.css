@@ -102,17 +102,13 @@ a {
 ==================================== */
 
 @media (min-width: 769px) {
-	.main-header,
-	.row {
-		width: 80%;
-		margin: 0 auto;
-		max-width: 1150px;
-	}
+	
 	.tagline {
 		font-size: 1.4em;
 	}
 	.main-header,
-	.main-nav {
+	.main-nav,
+	.row {
 		display: flex;
 	}
 	.main-header {
@@ -126,5 +122,14 @@ a {
 		flex-direction: row;
 		justify-content: space-between;
 	}
+
+	.primary {
+		width: 60%;
+	}
+
+	.secondary {
+		width: 40%;
+	}
+
 
 }
