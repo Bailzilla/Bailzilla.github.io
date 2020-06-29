@@ -33,6 +33,10 @@ a {
 	text-decoration: none;
 }
 
+img {
+	height: 400px;
+	width: 300px;
+}
 
 /* ================================= 
   Base Layout Styles
@@ -80,6 +84,7 @@ a {
 .col {
 	padding-right: 1em;
 	padding-left: 1em;
+	justify-content: center;
 }
 .main-footer {
 	background: #9BF6DD;
@@ -122,14 +127,5 @@ a {
 		flex-direction: row;
 		justify-content: space-between;
 	}
-
-	.primary {
-		width: 60%;
-	}
-
-	.secondary {
-		width: 40%;
-	}
-
 
 }
