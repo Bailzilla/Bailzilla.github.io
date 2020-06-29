@@ -72,7 +72,8 @@ img {
 	padding-bottom: .5em;
 }
 .banner,
-.main-footer {
+.main-footer,
+.row {
 	text-align: center;
 }
 .banner {
@@ -84,8 +85,7 @@ img {
 .col {
 	padding-right: 1em;
 	padding-left: 1em;
-	justify-content: center;
-}
+	}
 .main-footer {
 	background: #9BF6DD;
 	padding: 2em 0;
@@ -116,7 +116,7 @@ img {
 	.row {
 		display: flex;
 	}
-	.main-header {
+	.main-header{
 		flex-direction: column;
 		align-items: center;
 	}
@@ -128,4 +128,10 @@ img {
 		justify-content: space-between;
 	}
 
+	.row {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		width: 25%;
+	}
 }
