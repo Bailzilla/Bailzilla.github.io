@@ -1,3 +1,9 @@
 # Bailzilla.github.io
 
-simple site to practice responsive design and JavaScript. 
+# Front-End Project
+***HTML, CSS, JavaScript***
+
+
+---
+
+

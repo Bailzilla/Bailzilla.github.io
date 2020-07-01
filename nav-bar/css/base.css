@@ -132,6 +132,7 @@ img {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-		width: 25%;
+		width: auto;
+		flex-wrap: wrap;
 	}
 }
