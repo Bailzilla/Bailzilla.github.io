@@ -2,9 +2,15 @@
   Base Element Styles
 ==================================== */
 
-* {
-	box-sizing: border-box;
-}
+
+.row {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	width: auto;
+	justify-content: center;
+	}
+
 body {
 	font-family: 'Varela Round', sans-serif;
 	line-height: 1.6;
@@ -112,8 +118,8 @@ img {
 		font-size: 1.4em;
 	}
 	.main-header,
-	.main-nav,
-	.row {
+	.main-nav
+	 {
 		display: flex;
 	}
 	.main-header{
@@ -128,11 +134,5 @@ img {
 		justify-content: space-between;
 	}
 
-	.row {
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		width: auto;
-		flex-wrap: wrap;
-	}
+	
 }
