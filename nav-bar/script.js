@@ -7,13 +7,13 @@ const animal = prompt("who are you taking? 1 for Dee, 2 for Dennis, 3 for Mac, o
 
 function goAdv(loc, pet) {
     if (loc === 1 && pet === 1){
-        return ("Response")
+        return ("Great choice! Sweet Dee loves going for a ride, just be sure to crack the window so she can feel the breeze :)")
     } else if (loc === 1 && pet === 2){
-        return ("Response 2")
+        return ("As an ambulance siren goes by, Dennis begins to howl from the depth of his chest. Your ear drums are ratteld, but you ultimately walk away okay.")
     } else if (loc === 1 && pet === 3){
-        return ("Response 3")
+        return ("Mac is cautiously excited. She paces back and forth from window to window in the backseat, absorbing everything that comes her way.")
     } else if (loc === 1 && pet === 4){
-        return ("Response 4")  
+        return ("Artie is NOT happy with you. At a red light she cralwls into your lap and goes to the bathroom :/")  
     } else if (loc === 2 && pet === 1){
         return ("Response 5")  
     } else if (loc === 2 && pet === 2){
