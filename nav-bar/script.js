@@ -1,7 +1,7 @@
 //variables to store the location and pet chosen by the user
 
-const activity = alert("where would you like to do? type 1 to go for a car ride, 2 for a walk, 3 for a bath");
-const animal = alert("who are you taking? 1 for Dee, 2 for Dennis, 3 for Mac, or 4 for Artie");
+const activity = prompt("where would you like to do? type 1 to go for a car ride, 2 for a walk, 3 for a bath");
+const animal = prompt("who are you taking? 1 for Dee, 2 for Dennis, 3 for Mac, or 4 for Artie");
 
 //function will take a location and an animal. Return the animal's reaction to the chosen location
 
