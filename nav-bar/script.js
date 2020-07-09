@@ -17,11 +17,11 @@ function goAdv(loc, pet) {
     } else if (loc === 2 && pet === 1){
         return ("Dee howls uncontrollably as you strap on her lead. Away you go, hope you brought the right shoes!")  
     } else if (loc === 2 && pet === 2){
-        return ("Response 6")  
+        return ("Dennis smiles and stays by your side throughout the walk :)")  
     } else if (loc === 2 && pet === 3){
-        return ("Response 7")  
+        return ("Mac begins barking as soon as she sees you with her leash. Along the walk she zig-zags across the sidewalk, smelling everything in her path.")  
     } else if (loc === 2 && pet === 4){
-        return ("Response 8")  
+        return ("Artie may not do collars, but she is a willing follower in a walk around the block. She stalks 10 yards behind you, lurking from porch to porch.")  
     } else if (loc === 3 && pet === 1){
         return ("Response 9")  
     } else if (loc === 3 && pet === 2){
