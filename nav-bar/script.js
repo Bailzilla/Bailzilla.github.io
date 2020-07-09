@@ -15,7 +15,7 @@ function goAdv(loc, pet) {
     } else if (loc === 1 && pet === 4){
         return ("Artie is NOT happy with you. At a red light she cralwls into your lap and goes to the bathroom :/")  
     } else if (loc === 2 && pet === 1){
-        return ("Response 5")  
+        return ("Dee howls uncontrollably as you strap on her lead. Away you go, hope you brought the right shoes!")  
     } else if (loc === 2 && pet === 2){
         return ("Response 6")  
     } else if (loc === 2 && pet === 3){
