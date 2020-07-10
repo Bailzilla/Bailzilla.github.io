@@ -23,7 +23,7 @@ function goAdv(loc, pet) {
     } else if (loc === 2 && pet === 4){
         return ("Artie may not do collars, but she is a willing follower in a walk around the block. She stalks 10 yards behind you, lurking from porch to porch.")  
     } else if (loc === 3 && pet === 1){
-        return ("Response 9")  
+        return ("Dee is scared. She hears the bath water, tucks her tail ebtween her legs, and hurries to the comfort of her kennel.")  
     } else if (loc === 3 && pet === 2){
         return ("Response 10")  
     } else if (loc === 3 && pet === 3){
