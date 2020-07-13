@@ -4,7 +4,7 @@
 
 function goAdv() {
 
-//variables to store the location and pet chosen by the user
+    //variables to store the location and pet chosen by the user
 
     let loc = prompt("where would you like to do? type 1 to go for a car ride, 2 for a walk, 3 for a bath");
     let pet = prompt("who are you taking? 1 for Dee, 2 for Dennis, 3 for Mac, or 4 for Artie");
@@ -15,7 +15,7 @@ function goAdv() {
         alert ("As an ambulance siren goes by, Dennis begins to howl from the depth of his chest. Your ear drums are ratteld, but you ultimately walk away okay.")
     } else if (loc == 1 && pet == 3){
         alert ("Mac is cautiously excited. She paces back and forth from window to window in the backseat, absorbing everything that comes her way.")
-    } else if (loc ===1 && pet == 4){
+    } else if (loc ==1 && pet == 4){
         alert ("Artie is NOT happy with you. At a red light she cralwls into your lap and goes to the bathroom :/")  
     } else if (loc == 2 && pet == 1){
         alert ("Dee howls uncontrollably as you strap on her lead. Away you go, hope you brought the right shoes!")  
