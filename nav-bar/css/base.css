@@ -42,6 +42,7 @@ a {
 img {
 	height: 400px;
 	width: 300px;
+	cursor: pointer;
 }
 
 /* ================================= 
