@@ -1,13 +1,13 @@
 
 
-//function will return the animal's reaction to the chosen location
+//function will display the animal's reaction to the chosen location
 
 function goAdv() {
 
     //variables to store the location and pet chosen by the user
 
-    let loc = prompt("where would you like to do? type 1 to go for a car ride, 2 for a walk, 3 for a bath");
-    let pet = prompt("who are you taking? 1 for Dee, 2 for Dennis, 3 for Mac, or 4 for Artie");
+    let loc = prompt("what would you like to do? 1. go for a car ride, 2. go for a walk, 3. give a bath");
+    let pet = prompt("which pet? 1. Dee, 2. Dennis, 3. Mac, 4. Artie");
 
     if (loc == 1 && pet == 1){
         alert ("Great choice! Sweet Dee loves going for a ride, just be sure to crack the window so she can feel the breeze")
@@ -33,14 +33,6 @@ function goAdv() {
         alert ("Response 11")  
     } else if (loc == 3 && pet == 4){
         alert ("Response 12")  
-    } else if (loc == 4 && pet == 1){
-        alert ("Response 13")  
-    } else if (loc == 4 && pet == 2){
-        alert ("Response 14")  
-    } else if (loc == 4 && pet == 3){
-        alert ("Response 15")  
-    } else if (loc == 4 && pet == 4){
-        alert ("Response 16")  
     } else {
         alert ("please make a valid selection for activity and pet");
         goAdv();
