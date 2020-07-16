@@ -30,7 +30,7 @@ function goAdv() {
     } else if (loc == 3 && pet == 2){
         alert ("Dennis is hesitant at first, but he calms down once he feels the water. Good boy :)")  
     } else if (loc == 3 && pet == 3){
-        alert ("Response 11")  
+        alert ("Mac enjoys the feel of the water and is a trooper through the process.")  
     } else if (loc == 3 && pet == 4){
         alert ("Response 12")  
     } else {
