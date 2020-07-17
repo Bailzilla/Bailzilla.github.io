@@ -32,7 +32,7 @@ function goAdv() {
     } else if (loc == 3 && pet == 3){
         alert ("Mac enjoys the feel of the water and is a trooper through the process.")  
     } else if (loc == 3 && pet == 4){
-        alert ("Response 12")  
+        alert ("Artie cleans herself, and is therefore above being bathed by a mere human. She uses her elusiveness to disapear.")  
     } else {
         alert ("please make a valid selection for activity and pet");
         goAdv();
