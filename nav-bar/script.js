@@ -1,14 +1,14 @@
 
 
-//function will display the animal's reaction to the chosen location
+
+
+//function will take the activity and pet chosen by the user from the dropdown menus. From there it assesses the selections and responds with the chosen pet's reaction to the activity
 
 function goAdv() {
 
-    //variables to store the location and pet chosen by the user
-
-    let loc = prompt("what would you like to do? 1. go for a car ride, 2. go for a walk, 3. give a bath");
-    let pet = prompt("which pet? 1. Dee, 2. Dennis, 3. Mac, 4. Artie");
-
+    let loc = document.getElementById('activity').value;
+    let pet = document.getElementById('pet').value;
+        
     if (loc == 1 && pet == 1){
         alert ("Great choice! Sweet Dee loves going for a ride, just be sure to crack the window so she can feel the breeze")
     } else if (loc == 1 && pet == 2){
@@ -33,8 +33,5 @@ function goAdv() {
         alert ("Mac enjoys the feel of the water and is a trooper through the process.")  
     } else if (loc == 3 && pet == 4){
         alert ("Artie cleans herself, and is therefore above being bathed by a mere human. She uses her elusiveness to disapear.")  
-    } else {
-        alert ("please make a valid selection for activity and pet");
-        goAdv();
-    }
+    } 
 }
