@@ -43,7 +43,6 @@ a {
 img {
 	height: 400px;
 	width: 300px;
-	cursor: pointer;
 }
 
 /* ================================= 
@@ -103,7 +102,8 @@ img {
 /* ---- Page Elements ---- */
 
 .logo {
-	width: 490px;
+	width: 80%;
+	cursor: pointer;
 }
 .headline {
 	margin-bottom: 0;
@@ -128,6 +128,7 @@ img {
 		flex-direction: column;
 		align-items: center;
 	}
+		
 }
 @media (min-width: 1025px) {
 
@@ -135,6 +136,5 @@ img {
 		flex-direction: row;
 		justify-content: space-between;
 	}
-
 	
 }
