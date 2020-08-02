@@ -1,10 +1,9 @@
 # Bailzilla.github.io
 
-# Front-End Project
+# Tutor/Coaching Services Offered
 ***HTML, CSS, JavaScript***
 
-Responsive navigation on the top, as well as responsive body elements. 
-JavaScript function that launches a "choose your adventure" 
+This is a simple site to display my tutor/coaching services. With the current state of things in the world, there is a higher demand for remote teaching. I will use this site to broadcast my skills, connect with prospective students, and display testemonials from previous successful students.
 
 
 ---
