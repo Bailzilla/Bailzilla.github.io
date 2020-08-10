@@ -109,7 +109,9 @@ img {
 	margin-bottom: 0;
 }
 
-
+#third {
+	width: 80%;
+}
 /* ================================= 
   Media Queries
 ==================================== */
@@ -136,5 +138,6 @@ img {
 		flex-direction: row;
 		justify-content: space-between;
 	}
+	
 	
 }
