@@ -87,7 +87,7 @@ img {
 	color: #8797AF;
 	background: #F6EFA6;
 	padding: 3.2em 0;
-	margin-bottom: 48px;
+	margin-bottom: 30px;
 	}
 .col {
 	padding-right: 1em;
@@ -104,9 +104,6 @@ img {
 .logo {
 	width: 80%;
 	cursor: pointer;
-}
-.headline {
-	margin-bottom: 0;
 }
 
 #third {
