@@ -106,6 +106,10 @@ img {
 	cursor: pointer;
 }
 
+#primary {
+	width: 300px;
+}
+
 #third {
 	width: 80%;
 }
