@@ -2,47 +2,9 @@
   Base Element Styles
 ==================================== */
 
-
-.row {
-	display: flex;
-	flex-flow: row wrap;
-	align-items: center;
-	width: auto;
-	justify-content: center;
-	}
-
-body {
-	font-family: 'Montserrat', sans-serif;
-	line-height: 1.6;
-	color: #8797AF;
-	margin: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-p {
-	font-size: .95em;
-	margin-bottom: 1.8em;
-}
-h2,
-h3,
-a {
-	color: #8797AF;
-}
-h2,
-h3 {
-	margin-top: 0;
-}
-a {
-	text-decoration: none;
-}
-
 img {
-	height: 400px;
 	width: 300px;
+	height: 400px;
 }
 
 /* ================================= 
@@ -51,94 +13,12 @@ img {
 
 /* ---- Navigation ---- */
 
-.name {
-	font-size: 1.35em;
-	margin: 0;
-}
-.main-nav {
-	margin-top: 5px;
-}
-.name a,
-.main-nav a {
-	text-align: center;
-	display: block;
-	padding: 10px 15px;
-}
-.main-nav a {
-	font-size: .95em;
-	color: #8797AF;
-}
-.main-nav a:hover {
-	color: #2E0F15;
-}
-
-/* ---- Layout Containers ---- */
-
-.main-header {
-	padding-top: .5em;
-	padding-bottom: .5em;
-}
-.banner,
-.main-footer,
-.row {
-	text-align: center;
-}
-.banner {
-	color: #8797AF;
-	background: #F6EFA6;
-	padding: 1em 0;
-	margin-bottom: 30px;
-	}
-.col {
-	padding-right: 1em;
-	padding-left: 1em;
-	}
-.main-footer {
-	background: #F6EFA6;
-	padding: 2em 0;
-	margin-top: 30px;
-}
 
 /* ---- Page Elements ---- */
 
-.logo {
-	width: 80%;
-	cursor: pointer;
-}
-
-#primary {
-	width: 300px;
-}
-
-#third {
-	width: 80%;
-}
 /* ================================= 
   Media Queries
 ==================================== */
 
-@media (min-width: 769px) {
-	
-	.tagline {
-		font-size: 1.4em;
-	}
-	.main-header,
-	.main-nav
-	 {
-		display: flex;
-	}
-	.main-header{
-		flex-direction: column;
-		align-items: center;
-	}
-		
-}
-@media (min-width: 1025px) {
 
-	.main-header {
-		flex-direction: row;
-		justify-content: space-between;
-	}
 	
-	
-}
