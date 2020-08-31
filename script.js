@@ -1,1 +1,1 @@
-//next step is to give users the ability to contact me via email
+//the next step is to add a new style to the site with CSS that is different from what I've done before 
