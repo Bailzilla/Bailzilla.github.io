@@ -1,1 +1,0 @@
-//the next step is to add a new style to the site with CSS that is different from what I've done before 
