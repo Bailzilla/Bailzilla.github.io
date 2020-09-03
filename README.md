@@ -1,12 +1,12 @@
 # Bailzilla.github.io
 
-# Tutor/Coaching Services Offered
-***HTML, CSS, JavaScript***
+# Exercise Tracker
+***HTML, CSS, JavaScript, and more...***
 
-This site started as a project to market my tutoring services. While I no longer am planning on marketing my tutoring full-time, I still want to use this as a way to try new techniques with CSS, HTML, and JS. 
+Exercise tracker that lets you plan you week as well as look at what you've done in the past. Set goals and stay on top of them with this tracker.
 
 
 ---
 
 
-:bowtie:
+:muscle: :runner: :notebook: 
