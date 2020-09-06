@@ -17,3 +17,13 @@ const pull = [
     'snatch',
     'curl'
 ]
+
+const anterior = [
+    'squat',
+    'lunge',
+    'bulgarian squat',
+    'side lunge',
+    'step-up',
+    'thruster',
+    'pistol'
+]
