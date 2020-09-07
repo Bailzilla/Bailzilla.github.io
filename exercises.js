@@ -27,3 +27,13 @@ const anterior = [
     'thruster',
     'pistol'
 ]
+
+const posterior = [
+    'deadlift',
+    'hip hinge',
+    'good morning',
+    'RDL',
+    'Superman',
+    'reverse hyper',
+    'swing'
+]
