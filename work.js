@@ -1,3 +1,5 @@
-const work = document.getElementById('add')
+const work = document.getElementById('push')
+work.addEventListener('click', () => { document.getElementById('work').innerHTML += " " + push[1] })
 
-work.addEventListener('click', () => { document.getElementById('work').innerHTML = 'Workout for today: ' + push[1] })
+const pll = document.getElementById('pull')
+pll.addEventListener('click', () => { document.getElementById('work').innerHTML += " " + pull[1] })
