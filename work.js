@@ -6,3 +6,6 @@ pll.addEventListener('click', () => { document.getElementById('work').innerHTML 
 
 const ant = document.getElementById('anterior')
 ant.addEventListener('click', () => { document.getElementById('work').innerHTML += " " + anterior[1] })
+
+const pos = document.getElementById('posterior')
+pos.addEventListener('click', () => { document.getElementById('work').innerHTML += " " + posterior[1] })
