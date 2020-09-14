@@ -1,5 +1,6 @@
 const psh = document.getElementById('push')
-psh.addEventListener('click', () => { document.getElementById('work').innerHTML += " " + push[1] })
+let rPush = Math.floor(Math.random() * push.length);
+psh.addEventListener('click', () => { document.getElementById('work').innerHTML += " " + push[rPush] })
 
 const pll = document.getElementById('pull')
 pll.addEventListener('click', () => { document.getElementById('work').innerHTML += " " + pull[1] })
