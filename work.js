@@ -1,10 +1,8 @@
 const psh = document.getElementById('push')
-let rPush = Math.floor(Math.random() * push.length);
-psh.addEventListener('click', () => { document.getElementById('work').innerHTML += " " + push[rPush] })
+psh.addEventListener('click', () => { document.getElementById('work').innerHTML += " " + push[Math.floor(Math.random() * push.length)] })
 
 const pll = document.getElementById('pull')
-let rPull = Math.floor(Math.random() * pull.length);
-pll.addEventListener('click', () => { document.getElementById('work').innerHTML += " " + pull[rPull] })
+pll.addEventListener('click', () => { document.getElementById('work').innerHTML += " " + pull[Math.floor(Math.random() * pull.length)] })
 
 const ant = document.getElementById('anterior')
 ant.addEventListener('click', () => { document.getElementById('work').innerHTML += " " + anterior[1] })
