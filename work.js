@@ -9,3 +9,11 @@ ant.addEventListener('click', () => { document.getElementById('work').innerHTML 
 
 const pos = document.getElementById('posterior')
 pos.addEventListener('click', () => { document.getElementById('work').innerHTML += " " + posterior[Math.floor(Math.random() * posterior.length)] })
+
+fetch("https://type.fit/api/quotes")
+  .then(function(response) {
+    return response.json();
+  })
+  .then(function(data) {
+    console.log(data);
+  });
