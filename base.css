@@ -2,7 +2,10 @@
 body{
     background: #3399ff;
   }
-  
+
+  h1,h2,h3{
+    color: whitesmoke;
+  }
   
   .circle{
     position: absolute;
