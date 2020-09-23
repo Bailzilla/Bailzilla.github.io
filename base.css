@@ -6,8 +6,10 @@ body{
   h1,h2,h3{
     color: whitesmoke;
   }
-  
+
+    
   .circle{
+    z-index: -100;
     position: absolute;
     border-radius: 50%;
     background: white;
