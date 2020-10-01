@@ -9,7 +9,12 @@ body{
     color: whitesmoke;
   }
 
-    
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
   .circle{
     z-index: -100;
     position: absolute;
@@ -85,4 +90,13 @@ body{
     100%{
       transform: scale(0.8);
     }
+  }
+
+  @media (min-width: 600px) {
+
+    .container {
+      flex-direction: row;
+      
+    }
+  
   }
