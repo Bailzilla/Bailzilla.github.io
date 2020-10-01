@@ -15,10 +15,8 @@ let arr = []
 
 fetch("https://type.fit/api/quotes")
   .then(function(response) {
-    return response.json();
-  })
-  .then(function(data) {
-    document.getElementById('quote').textContent=data[1];
+    response.text().then(function(data) {
+    console.log(textContent=data);
   });
-
+  });
   
