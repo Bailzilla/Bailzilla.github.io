@@ -3,6 +3,9 @@
 body{
     background: #3399ff;
     font-family: 'David Libre', serif;
+    background: transparent url("pics/gym.jpg");
+    background-size: cover; 
+    color: white;  
   }
 
   h1,h2,h3{
@@ -17,7 +20,7 @@ body{
   }
   
   .button:hover {
-    background-color: blue;
+    background-color: black;
     color: white;
   }
 

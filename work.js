@@ -11,12 +11,12 @@ const pos = document.getElementById('posterior')
 pos.addEventListener('click', () => { document.getElementById('work').innerHTML += " ~" + posterior[Math.floor(Math.random() * posterior.length)] })
 
 
-let arr = []
+// let arr = []
 
-fetch("https://type.fit/api/quotes")
-  .then(function(response) {
-    response.text().then(function(data) {
-    console.log(textContent=data);
-  });
-  });
+// fetch("https://type.fit/api/quotes")
+//   .then(function(response) {
+//     response.text().then(function(data) {
+//     document.getElementById('quote').innerHTML=<h2>(textContent=data[1])</h2>;
+//   });
+//   });
   
