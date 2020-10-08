@@ -11,12 +11,9 @@ const pos = document.getElementById('posterior')
 pos.addEventListener('click', () => { document.getElementById('work').innerHTML += " ~" + posterior[Math.floor(Math.random() * posterior.length)] })
 
 
-// let arr = []
+let arr = []
 
-// fetch("https://type.fit/api/quotes")
-//   .then(function(response) {
-//     response.text().then(function(data) {
-//     document.getElementById('quote').innerHTML=<h2>(textContent=data[1])</h2>;
-//   });
-//   });
-  
+fetch("https://type.fit/api/quotes")
+  .then(response => response.json())
+    .then(data => 
+        document.getElementById('quote').innerHTML=(data[Math.floor(Math.random() * data.length)].text))

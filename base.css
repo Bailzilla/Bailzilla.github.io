@@ -10,6 +10,8 @@ body{
 
   h1,h2,h3{
     color: whitesmoke;
+    background: gray;
+    text-align: center;
   }
 
   .button {
@@ -30,6 +32,12 @@ body{
     justify-content: space-around;
   }
   
+  #quote, #work{
+  color: goldenrod;
+  background: black;
+  text-align: center;
+  }
+
   @media (min-width: 600px) {
 
     .container {
