@@ -39,10 +39,7 @@ body{
   }
 
   @media (min-width: 600px) {
-
     .container {
-      flex-direction: row;
-      
+      flex-direction: row;      
     }
-  
   }
