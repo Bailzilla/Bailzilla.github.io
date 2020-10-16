@@ -1,7 +1,7 @@
 //add a function to 'add an exercise' to replace repeated calls
 // declare varialbles: elements and random number
 
-let rando = Math.floor(Math.random() * push.length)
+let rando = Math.floor(Math.random() * arr.length)
 console.log(rando)
 
 //document.getElementsByClassName('button')
@@ -10,7 +10,9 @@ exer=>exer.addEventListener('click', document.getElementById('work').innerHTML +
 
 
           const psh = document.getElementById('push')
-          psh.addEventListener('click', () => { document.getElementById('work').innerHTML += " ~" + push[rando] })
+
+
+          document.getElementById('push').addEventListener('click', (id) =>{ document.getElementById('work').innerHTML += " ~" + id[rando] })
 
           const pll = document.getElementById('pull')
           pll.addEventListener('click', () => { document.getElementById('work').innerHTML += " ~" + pull[rando] })
