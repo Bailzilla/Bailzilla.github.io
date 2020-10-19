@@ -38,3 +38,6 @@ const posterior = [
     'swing'
 ]
 
+fetch("https://type.fit/api/quotes")
+.then(response => response.json())
+  .then(data => document.getElementById('quote').innerHTML=(data[Math.floor(Math.random() * data.length)].text))
