@@ -9,7 +9,7 @@ body{
   }
 
   h1,h2,h3{
-    color: forestgreen;
+    color: forestgreen ;
     background: silver;
     text-align: center;
     
@@ -35,7 +35,7 @@ body{
   
   #quote, #work{
   color: yellowgreen;
-  background: black;
+  background: purple;
   text-align: center;
   }
 
