@@ -15,3 +15,10 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+fetch("https://type.fit/api/quotes")
+  .then(response => response.json())
+  .then(data => document.getElementById('quote').innerHTML=(data[Math.floor(Math.random() * data.length)].text))
+
+
