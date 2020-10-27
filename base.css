@@ -3,7 +3,7 @@
 body{
     background: #3399ff;
     font-family: 'David Libre', serif;
-    background: transparent url("pics/gym.jpg");
+    background: url("pics/gym.jpg");
     background-size: cover; 
     color: white;  
   }
