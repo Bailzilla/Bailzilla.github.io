@@ -12,7 +12,7 @@ function App() {
         
  
         <div className = 'container'>
-          <button className='button' onClick={alert('hi')} >push</button>
+          <button className='button' onClick={alert('hi')} >Add push exercise</button>
           <button className='button' >Add pull exercise</button>
           <button className='button' >Add anterior lower body exercise</button>
           <button className='button' >Add posterior lower body exercise</button>
