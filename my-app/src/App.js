@@ -10,6 +10,7 @@ function App() {
         <h1 id='quote'>yo</h1>
         <img src={logo} className="App-logo" alt="logo" />
         
+        <p id="work">For today: </p>
  
         <div className = 'container'>
           <button className='button' onClick={alert('hi')} >Add push exercise</button>
@@ -18,7 +19,7 @@ function App() {
           <button className='button' >Add posterior lower body exercise</button>
         </div>
 
-        <p id="work">For today: </p>
+       
       
       </header>
     </div>
