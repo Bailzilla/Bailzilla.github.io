@@ -1,4 +1,4 @@
-import logo from './gym.jpg';
+import logo from './pics/gym.jpg';
 import './App.css';
 
 
