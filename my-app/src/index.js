@@ -14,9 +14,8 @@ ReactDOM.render(
 
 fetch("https://type.fit/api/quotes")
   .then(response => response.json())
-  .then(data => document.getElementById('quote').innerHTML=(data[Math.floor(Math.random() * data.length)].text))
-
-
+  .then(data => document.getElementById('quote').innerHTML=('"'+(data[Math.floor(Math.random() * data.length)].text)+'" - '+ (data[Math.floor(Math.random() * data.length)].author)))
+ 
 
 
 // If you want to start measuring performance in your app, pass a function

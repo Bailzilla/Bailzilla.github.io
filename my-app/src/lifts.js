@@ -2,121 +2,101 @@ export const lifts = [
     {
         type: 'push',
         name: 'dip',
-        src: 'url',
-        description: 'string'
+        src: './pics/dips.png'
     },
     {
         type: 'push',
         name: 'push-up',
-        src: 'url',
-        description: 'string'
+        src: './pics/pushup.jpg'
     },
     {
         type: 'push',
         name: 'wide grip push-up',
-        src: 'url',
-        description: 'string'
+        src: './pics/widegrippushups.jpg'
     },
     {
         type: 'push',
         name: 'cobra push-up',
-        src: 'url',
-        description: 'string'
+        src: './pics/cobra.jpg'
     },
     {
         type: 'push',
         name: 'overhead press',
-        src: 'url',
-        description: 'string'
+        src: './pics/overheadpress'
     },
     {
         type: 'pull',
         name: 'pullup',
-        src: 'url',
-        description: 'string'
+        src: './pics/pullup.jpg' 
     },
     {
         type: 'pull',
         name: 'inverted row',
-        src: 'url',
-        description: 'string'
+        src: './pics/invertedrow.png'
     },
     {
         type: 'pull',
         name: 'bent over row',
-        src: 'url',
-        description: 'string'
+        src: './pics/bentrow.jpg'
     }, {
         type: 'pull',
         name: 'chin-up',
-        src: 'url',
-        description: 'string'
+        src: './pics/chinups.png'
     },
     {
         type: 'pull',
         name: 'curl',
-        src: 'url',
-        description: 'string'
+        src: './pics/curl.jpg'
     },
     {
         type: 'anterior',
         name: 'squat',
-        src: 'url',
-        description: 'string'
+        src: './pics/squat.jpg'
     },
     {
         type: 'anterior',
         name: 'bulgarian squat',
-        src: 'url',
-        description: 'string'
+        src: './pics/bulgarian.jpg'
     },
     {
         type: 'anterior',
         name: 'side lunge',
-        src: 'url',
-        description: 'string'
+        src: './pics/sidelunge.png'
     },
     {
         type: 'anterior',
         name: 'step-up',
-        src: 'url',
-        description: 'string'
+        src: './pics/stepup.jpg'
     },
     {
         type: 'anterior',
         name: 'pistol',
-        src: 'url',
-        description: 'string'
+        src: './pics/pistol.jpg'
     },
     {
         type: 'posterior',
         name: 'deadlift',
-        src: 'url',
-        description: 'string'
+        src: './pics/deadlift.png'
     },
     {
         type: 'posterior',
         name: 'hip hinge',
-        src: 'url',
-        description: 'string'
+        src: './pics/hiphinge.jpg'
     },
     {
         type: 'posterior',
         name: 'RDL',
-        src: 'url',
-        description: 'string'
+        src: './pics/rdl.jpg'
     },
     {
         type: 'posterior',
-        name: 'hyper extension',
-        src: 'url',
-        description: 'string'
+        name: 'hyper',
+        src: './pics/hyper.jpg'
     },
     {
         type: 'posterior',
         name: 'Superman',
-        src: 'url',
-        description: 'string'
+        src: './pics/superman.jpg'
     }
 ]
 
