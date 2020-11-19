@@ -11,6 +11,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+//API call returns an array of motivational quotes. One is chosen at random and then is displayed in the quote div along with the author and propper formatting for a quotation
 
 fetch("https://type.fit/api/quotes")
   .then(response => response.json())

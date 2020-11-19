@@ -22,7 +22,7 @@ export const lifts = [
     {
         type: 'push',
         name: 'overhead press',
-        src: './pics/overheadpress'
+        src: './pics/overheadpress.jpg'
     },
     {
         type: 'pull',
